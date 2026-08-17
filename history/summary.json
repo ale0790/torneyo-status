@@ -34,5 +34,23 @@
     "timeMonth": 737,
     "timeYear": 737,
     "dailyMinutesDown": {}
+  },
+  {
+    "name": "API",
+    "url": "https://app.torneyo.com/actuator/health",
+    "icon": "https://icons.duckduckgo.com/ip3/app.torneyo.com.ico",
+    "slug": "api",
+    "status": "up",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
+    "time": 595,
+    "timeDay": 595,
+    "timeWeek": 595,
+    "timeMonth": 595,
+    "timeYear": 595,
+    "dailyMinutesDown": {}
   }
 ]
