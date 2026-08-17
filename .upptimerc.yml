@@ -1,31 +1,41 @@
-# Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+# Upptime (https://upptime.js.org) - monitor de disponibilidade do Torneyo
+# Historico de sondagens versionado em git = disponibilidade comprovavel para editais
+# (Varginha 95% / Santa Rita do Sapucai 97%).
+owner: ale0790
+repo: torneyo-status
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Secret Site
-    url: $SECRET_SITE
+  - name: Website
+    url: https://torneyo.com
+  - name: App
+    url: https://app.torneyo.com
+  # API (health enxuto): adicionar quando a issue ale0790/Torneyo#1705 expuser
+  # https://app.torneyo.com/api/actuator/health respondendo 200 {"status":"UP"}
+  # - name: API
+  #   url: https://app.torneyo.com/api/actuator/health
+  #   expectedStatusCodes:
+  #     - 200
 
 status-website:
-  # Add your custom domain name, or remove the `cname` line if you don't have a domain
-  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
-  # baseUrl: /your-repo-name
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  baseUrl: /torneyo-status
+  logoUrl: https://torneyo.com/favicon.svg
+  name: Torneyo Status
+  introTitle: "Status dos servicos **Torneyo**"
+  introMessage: Monitoramento externo e independente (GitHub Actions, a cada ~5 min). Historico completo e auditavel no [repositorio](https://github.com/ale0790/torneyo-status).
   navbar:
     - title: Status
       href: /
+    - title: Site
+      href: https://torneyo.com
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
 
-# Upptime also supports notifications, assigning issues, and more
-# See https://upptime.js.org/docs/configuration
+i18n:
+  activeIncidents: Incidentes ativos
+  allSystemsOperational: Todos os sistemas operacionais
+  degradedPerformance: desempenho degradado
+  down: fora do ar
+  up: no ar
+
+# Notificacoes: issues sao abertas automaticamente neste repo quando um site cai.
+# Ver https://upptime.js.org/docs/configuration para e-mail/Telegram via secrets.
