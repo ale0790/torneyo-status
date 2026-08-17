@@ -9,12 +9,11 @@ sites:
     url: https://torneyo.com
   - name: App
     url: https://app.torneyo.com
-  # API (health enxuto): adicionar quando a issue ale0790/Torneyo#1705 expuser
-  # https://app.torneyo.com/api/actuator/health respondendo 200 {"status":"UP"}
-  # - name: API
-  #   url: https://app.torneyo.com/api/actuator/health
-  #   expectedStatusCodes:
-  #     - 200
+  # API (health enxuto exposto pelo PR ale0790/Torneyo#1707, deployado 17/08)
+  - name: API
+    url: https://app.torneyo.com/actuator/health
+    expectedStatusCodes:
+      - 200
 
 status-website:
   baseUrl: /torneyo-status
