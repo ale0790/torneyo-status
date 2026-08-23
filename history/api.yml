@@ -1,7 +1,7 @@
 url: https://app.torneyo.com/actuator/health
 status: up
 code: 200
-responseTime: 637
-lastUpdated: 2026-08-22T23:14:26.357Z
+responseTime: 495
+lastUpdated: 2026-08-23T23:14:42.087Z
 startTime: 2026-08-17T23:17:00.791Z
 generator: Upptime <https://github.com/upptime/upptime>
