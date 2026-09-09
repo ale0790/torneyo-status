@@ -1,7 +1,7 @@
 url: https://app.torneyo.com/actuator/health
-status: down
-code: 502
-responseTime: 354
-lastUpdated: 2026-09-09T18:40:21.179Z
+status: up
+code: 200
+responseTime: 1105
+lastUpdated: 2026-09-09T21:14:18.808Z
 startTime: 2026-08-17T23:17:00.791Z
 generator: Upptime <https://github.com/upptime/upptime>
