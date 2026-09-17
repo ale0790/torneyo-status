@@ -40,19 +40,20 @@
     "url": "https://app.torneyo.com/actuator/health",
     "icon": "https://icons.duckduckgo.com/ip3/app.torneyo.com.ico",
     "slug": "api",
-    "status": "down",
-    "uptime": "99.65%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "99.65%",
-    "uptimeYear": "99.65%",
-    "time": 539,
-    "timeDay": 595,
-    "timeWeek": 528,
-    "timeMonth": 539,
-    "timeYear": 539,
+    "status": "up",
+    "uptime": "99.15%",
+    "uptimeDay": "84.44%",
+    "uptimeWeek": "97.78%",
+    "uptimeMonth": "99.14%",
+    "uptimeYear": "99.15%",
+    "time": 536,
+    "timeDay": 520,
+    "timeWeek": 517,
+    "timeMonth": 536,
+    "timeYear": 536,
     "dailyMinutesDown": {
-      "2026-09-09": 154
+      "2026-09-09": 154,
+      "2026-09-17": 224
     }
   }
 ]
