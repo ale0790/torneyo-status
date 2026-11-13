@@ -4,18 +4,20 @@
     "url": "https://torneyo.com",
     "icon": "https://icons.duckduckgo.com/ip3/torneyo.com.ico",
     "slug": "website",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 283,
-    "timeDay": 307,
-    "timeWeek": 280,
-    "timeMonth": 249,
-    "timeYear": 283,
-    "dailyMinutesDown": {}
+    "time": 282,
+    "timeDay": 247,
+    "timeWeek": 269,
+    "timeMonth": 246,
+    "timeYear": 282,
+    "dailyMinutesDown": {
+      "2026-11-13": 0
+    }
   },
   {
     "name": "App",
